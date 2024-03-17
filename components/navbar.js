@@ -79,7 +79,7 @@ const Navbar = props => {
         >
           <LinkItem href="/">home</LinkItem>
           <LinkItem href="/projects">projects</LinkItem>
-          <LinkItem
+          {/* <LinkItem
             target="_blank"
             href="https://docs.google.com/document/d/1oe-ccO3LNIOLFRJ5v0m-e0u_hUiqinHtLekKCDMXzNw/edit?usp=sharing"
             path={path}
@@ -91,7 +91,7 @@ const Navbar = props => {
             
  
             resume
-          </LinkItem>
+          </LinkItem> */}
           
         </Stack>
 
