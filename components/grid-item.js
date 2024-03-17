@@ -42,18 +42,27 @@ export const ProjectGridItem = ({
       scroll={false}
       cursor="pointer"
     >
+
+      {/* Layout  */}
       <Image
         src={thumbnail}
         alt={title}
         loading="lazy"
         width={100}
         height={100}
-        // objectFit="cover"
+        
+        // THIS LAYOUT IS WHY IT THROWS A WARNING
         layout="responsive"
         className="grid-item-thumbnail"
         placeholder="blur"
         style={{ borderRadius: '12px' }}
       />
+
+
+
+
+
+      
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>
           {title}

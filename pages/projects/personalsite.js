@@ -12,9 +12,16 @@ const Work = () =>{
                 <Title>
                     personal website <Badge>2024</Badge>
                 </Title>
+
+
+                {/* <br></br> */}
                 
                 <ul>
                     <li>my website! an ongoing project with all my builds</li>
+                    <li>built using NextJS, and Chakra UI</li>
+                    <li>implemented framer motion for loading page animations</li>
+                    <li>Animated dog and his shadow using ThreeJS</li>
+
 
 
                     
@@ -29,7 +36,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>NextJS, Chakra UI, Framer Motion</span>
+                        <span>NextJS, Chakra UI, Framer Motion, ThreeJS</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Repo</Meta>

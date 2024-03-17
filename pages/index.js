@@ -16,7 +16,7 @@ const Page = () => {
         <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center" marginTop={5} marginBottom={5}>
-                Hi! I&apos;m Sean, meet my dawg  
+                Hi! I&apos;m Sean, meet the dog
             </Box>
 
             <Box display={{md:'flex'}}>
@@ -104,7 +104,10 @@ const Page = () => {
                     <Button
                         variant="ghost"
                         // colorScheme="teal"
+                      
+                        color={iconColor}
                         leftIcon={<IoLogoGithub />}
+                        _hover={{ color: '#5a189a' }}
                     >
                         github
                     </Button>
@@ -115,7 +118,11 @@ const Page = () => {
                     <Button
                         variant="ghost"
                         // colorScheme="teal"
+                        
+                        color={iconColor}
                         leftIcon={<IoLogoLinkedin />}
+                        _hover={{ color: '#5a189a' }}
+                        
                     >
                         linkedin
                     </Button>
@@ -126,7 +133,10 @@ const Page = () => {
                     <Button
                         variant="ghost"
                         // colorScheme="teal"
+                       
+                        color={iconColor}
                         leftIcon={<IoSend />}
+                        _hover={{ color: '#5a189a' }}
                     >
                         seangkim.dev@gmail.com
                     </Button>

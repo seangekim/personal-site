@@ -30,15 +30,16 @@ const Projects = () => {
                         </ProjectGridItem> 
                     </Section>
                     <Section delay = {1}>
-                        <ProjectGridItem id="uniswap" title="uniswap" thumbnail={uniswap}>
-                            a hyper-localized digital marketplace for college students to sell and trade used goods on campus
-                        </ProjectGridItem> 
-                    </Section>
-                    <Section delay = {1}>
                         <ProjectGridItem id="personalsite" title="personal site" thumbnail={personalsite}>
                             my own personal website
                         </ProjectGridItem> 
                     </Section>
+                    <Section delay = {1}>
+                        <ProjectGridItem id="uniswap" title="uniswap" thumbnail={uniswap}>
+                            a hyper-localized digital marketplace for college students to sell and trade used goods on campus
+                        </ProjectGridItem> 
+                    </Section>
+                    
                     <Section delay = {1}>
                         <ProjectGridItem id="nba" title="nba" thumbnail={nba}>
                             nba win rate projection
