@@ -8,11 +8,15 @@ import { BioSection, BioYear } from '../components/bio'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoSend } from 'react-icons/io5'
 
 const Page = () => {
+
+    const bgColor = useColorModeValue('#be864e', '#5a189a');
+    const iconColor = useColorModeValue('black', 'white');
+
     return(
         <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center" marginTop={5} marginBottom={5}>
-                Hi! I&apos;m Sean, welcome to my site
+                Hi! I&apos;m Sean, meet my dawg  
             </Box>
 
             <Box display={{md:'flex'}}>
@@ -48,7 +52,12 @@ const Page = () => {
 
             <Box align="center" my={4}>
                 <NextLink href="/projects">
-                    <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                    <Button rightIcon={<ChevronRightIcon />} 
+                        bg={bgColor}
+                        color={iconColor}
+                        >
+
+
                         My portfolio
                         </Button>
                 </NextLink>
@@ -94,7 +103,7 @@ const Page = () => {
                     <Link href="https://github.com/seangekim" target="_blank">
                     <Button
                         variant="ghost"
-                        colorScheme="teal"
+                        // colorScheme="teal"
                         leftIcon={<IoLogoGithub />}
                     >
                         github
@@ -105,7 +114,7 @@ const Page = () => {
                     <Link href="https://www.linkedin.com/in/seangekim/" target="_blank">
                     <Button
                         variant="ghost"
-                        colorScheme="teal"
+                        // colorScheme="teal"
                         leftIcon={<IoLogoLinkedin />}
                     >
                         linkedin
@@ -116,7 +125,7 @@ const Page = () => {
                     <Link href="mailto:seangkim.dev@gmail.com" target="_blank">
                     <Button
                         variant="ghost"
-                        colorScheme="teal"
+                        // colorScheme="teal"
                         leftIcon={<IoSend />}
                     >
                         seangkim.dev@gmail.com
