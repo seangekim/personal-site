@@ -49,6 +49,10 @@ const Page = () => {
             <Paragraph>
             Currently, I'm pursuing my M.S. in Computer Science along with my B.S. in Computer Science and Business Administration w/ a minor in Philosophy at the University of Southern California.
             </Paragraph>
+            <br></br>
+            <Paragraph>
+            When not studying, you might find me reading in my hammock, cooking, or snowboarding. 
+            </Paragraph>
 
             <Box align="center" my={4}>
                 <NextLink href="/projects">
