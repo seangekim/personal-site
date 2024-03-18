@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="personalsite">
             <Container>
                 <Title>
-                    personal website <Badge>2024</Badge>
+                    Personal Website<Badge>2024</Badge>
                 </Title>
 
 
@@ -20,14 +20,14 @@ const Work = () =>{
                     <li>My website! An ongoing project with all my builds.</li>
                     <li>Built using NextJS, and Chakra UI.</li>
                     <li>Implemented framer motion for loading page animations.</li>
-                    <li>Animated dog using <Link href="https://threeks.org/" isExternal>ThreeJS</Link> (designed w/ Blender and <Link href="https://ephtracy.github.io/" isExternal>MagicaVoxel</Link>).</li>
+                    <li>Animated dog using <Link href="https://threejs.org/" target="_blank" isExternal>ThreeJS</Link> (designed w/ Blender and <Link href="https://ephtracy.github.io/" target="_blank" isExternal>MagicaVoxel</Link>).</li>
 
                 </ul>
                 
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="seankim.com">
+                        <Link href="https://sean-kim.vercel.app" target="_blank">
                             sean-kim.vercel.app <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
@@ -37,7 +37,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Repo</Meta>
-                        <Link href="https://github.com/seangekim/personal-site">
+                        <Link href="https://github.com/seangekim/personal-site" target="_blank">
                             site <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>

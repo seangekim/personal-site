@@ -1,11 +1,12 @@
-import {Link, List, ListItem, Button, Container , Box, Heading, Image, useColorModeValue} from "@chakra-ui/react"
+import {Flex, Text, Link, List, ListItem, Button, Container , Box, Heading, Image, useColorModeValue} from "@chakra-ui/react"
 import Section from'../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
-import { BioSection, BioYear } from '../components/bio'
+import { BioSection, BioTitle } from '../components/bio'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoSend } from 'react-icons/io5'
+
 
 const Page = () => {
 
@@ -72,22 +73,72 @@ const Page = () => {
                 Bio
             </Heading>
             <BioSection>
-                <BioYear>FloQast</BioYear>
-                
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                    <Link href="/works/floqast">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            FloQast
+                        </Button>
+                    </Link>
+                </BioTitle>
+                    <Text>2024 - Present</Text>
+                </Flex>
             </BioSection>
             
             <BioSection>
-                <BioYear>The Interaction Lab</BioYear>
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                    <Link href="/works/interactionlab">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            The Interaction Lab
+                        </Button>
+                    </Link>
+                </BioTitle>
+                    <Text>Dec. 2022 - Present</Text>
+                </Flex>
+            </BioSection>
+
+            <BioSection>
+                <Flex justifyContent="space-between" alignItems="center">
+                    <BioTitle>
+                        <Link href="/works/hibiscus">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            HackSC
+                        </Button>
+                        </Link>
+                    </BioTitle>
+                    <Text>Mar. 2023 - Present</Text>
+                </Flex>
                 
             </BioSection>
 
             <BioSection>
-                <BioYear>HackSC</BioYear>
-                
-            </BioSection>
-
-            <BioSection>
-                <BioYear>Novus Labs</BioYear>
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                        <Link href="/works/novus">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            Novus Labs
+                        </Button>
+                        </Link>
+                    </BioTitle>
+                    <Text>May 2023 - Aug 2023</Text>
+                </Flex>
                 
             </BioSection>
             
@@ -144,10 +195,7 @@ const Page = () => {
                     </Link>
                 </ListItem>
           </List>
-          {/* <Section>
-            my spotify information
-            <script src='../components/spotify.js' type="module"></script>
-          </Section> */}
+       
 
         </Section>
         </Container>

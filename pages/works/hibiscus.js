@@ -10,11 +10,12 @@ const Work = () =>{
         <Layout title="Hibiscus">
             <Container>
                 <Title>
-                    hibiscus <Badge>2023</Badge>
+                    HackSC <Badge>2023</Badge>
                 </Title>
                 
                 <ul>
-                    <li>Hibiscus, an all-in-one, plug-and-play hackathon platform for HackSC developed with a team of six developers and four designers.</li>
+                    <li>At HackSC, we curate transformative hackathons and conferences that empower participants to push the boundaries of their potential. </li>
+                    <li>Developed Hibiscus, an all-in-one, plug-and-play hackathon platform for HackSC developed with a team of six developers and four designers.</li>
 
                     <li>Orchestrated system design for different services for the Hackathon platform.</li>
                     <li>Developed API endpoints for application, events, and participant services.</li>
@@ -27,7 +28,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://www.hacksc.com/">
+                        <Link href="https://www.hacksc.com/" target="_blank">
                             hacksc.com <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
@@ -37,7 +38,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Repo</Meta>
-                        <Link href="https://github.com/HackSC/hibiscus">
+                        <Link href="https://github.com/HackSC/hibiscus" target="_blank">
                             hibiscus <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>

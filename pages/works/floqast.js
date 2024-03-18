@@ -7,18 +7,15 @@ from '../../components/layouts/article'
 
 const Work = () =>{
     return (
-        <Layout title=" Novus">
+        <Layout title="FloQast">
             <Container>
                 <Title>
-                    Novus Labs <Badge>2023</Badge>
+                    FloQast <Badge>2024</Badge>
                 </Title>
                 
-                <ul>
-                    <li>Assisted in the development of a web application to display interactive data visualizations for a marketing contractor based on consumer data and enabled filtering options.</li>
-
-                    <li>Developed an interactive Front-end UI portal using React that retrieved and displayed data.</li>
-                    <li>Implemented unit and integration tests using pytest to ensure web app functionality.</li>
-                </ul>
+                
+                <div>Incoming SWE at Floqast</div>
+                
                 
                 <List ml={4} my={4}>
                     <ListItem>  
@@ -27,17 +24,19 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://www.novuslabs.com/" target="_blank">
-                            novuslabs.com <ExternalLinkIcon mx="2px"/>
+                        <Link href="https://floqast.com/" target="_blank">
+                            floqast.com <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Technologies</Meta>
-                        <span>Python, MongoDB, ReactJS, AWS, Docker</span>
-                    </ListItem> 
+                        <span>JavaScript, React, MongoDB, AWS</span>
+                    </ListItem>
+                    
+                    
                     
                 </List>
-                <WorkImage src="/images/novus1.png" alt="Novus" />
+                {/* <WorkImage src="/images/floqast_logo.jpeg" alt="FloQast" /> */}
                 
             </Container>
         </Layout>

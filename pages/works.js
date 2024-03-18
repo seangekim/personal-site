@@ -8,6 +8,8 @@ import personalsite from "../public/images/personalsite.png"
 import nba from "../public/images/nba.png"
 import songhub from "../public/images/songhub.png"
 import Layout from '../components/layouts/article'
+import novus from '../public/images/novus.jpeg'
+import floqast from '../public/images/floqast.jpeg'
 
 const Works = () => {
     return (
@@ -20,34 +22,44 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap = {6}>
                     <Section delay = {1}>
-                        <WorkGridItem id="hibiscus" title="hibiscus" thumbnail={hibiscus}>
+                        <WorkGridItem id="floqast" title="FloQast" thumbnail={floqast}>
+                            Software Engineering Internship
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay = {1}>
+                        <WorkGridItem id="hibiscus" title="HackSC" thumbnail={hibiscus}>
                             An all-in-one, plug-and-play hackathon platform
                         </WorkGridItem>
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="interactionlab" title="interaction lab" thumbnail={interactionlab}>
+                        <WorkGridItem id="interactionlab" title="The Interaction Lab" thumbnail={interactionlab}>
                             Learning How to Re-Engage
                         </WorkGridItem> 
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="personalsite" title="personal site" thumbnail={personalsite}>
+                        <WorkGridItem id="novus" title = "Novus Labs" thumbnail = {novus}>
+                            Software Engineering Internship
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay = {1}>
+                        <WorkGridItem id="personalsite" title="Personal Portfolio" thumbnail={personalsite}>
                             my own personal website
                         </WorkGridItem> 
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="uniswap" title="uniswap" thumbnail={uniswap}>
+                        <WorkGridItem id="uniswap" title="UniSwap" thumbnail={uniswap}>
                             a hyper-localized digital marketplace for college students to sell and trade used goods on campus
                         </WorkGridItem> 
                     </Section>
                     
                     <Section delay = {1}>
-                        <WorkGridItem id="nba" title="nba" thumbnail={nba}>
-                            nba win rate projection
+                        <WorkGridItem id="nba" title="NBA" thumbnail={nba}>
+                            an NBA win rate projector.
                         </WorkGridItem> 
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="songhub" title="songhub" thumbnail={songhub}>
-                            songhub, send songs from spotify to apple music
+                        <WorkGridItem id="songhub" title="SongHub" thumbnail={songhub}>
+                            send songs from spotify to apple music
                         </WorkGridItem> 
                     </Section>
 

@@ -120,6 +120,9 @@ const VoxelDog = () => {
 
   return (
     <DogContainer ref={refContainer}>{loading && <DogSpinner />}</DogContainer>
+
+
+    // <DogContainer ref={refContainer}>{loading}</DogContainer>
   )
 }
 

@@ -10,8 +10,9 @@ const Work = () =>{
         <Layout title="nba win rate projector">
             <Container>
                 <Title>
-                    nba win rate projector <Badge>2023</Badge>
+                    NBA Win Rate Projector<Badge>2023</Badge>
                 </Title>
+                
                 
                 <ul>
                     <li>Designed web app to create data visualizations of win rates for NBA teams’ past seasons.</li>
@@ -27,7 +28,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://github.com/seangekim/NBA_ML_Projections">
+                        <Link href="https://github.com/seangekim/NBA_ML_Projections" target="_blank">
                             nba win rate projector <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>

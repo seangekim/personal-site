@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="Hibiscus">
             <Container>
                 <Title>
-                    uniswap <Badge>2023</Badge>
+                    UniSwap <Badge>2023</Badge>
                 </Title>
             
                 <ul>
@@ -37,7 +37,7 @@ const Work = () =>{
                     <ListItem>
                         <Meta>Repo</Meta>
                         <Link href="https://github.com/seangekim/UniSwap_">
-                            uniswap <ExternalLinkIcon mx="2px"/>
+                            UniSwap <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
                     

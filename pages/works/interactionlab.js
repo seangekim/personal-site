@@ -1,4 +1,4 @@
-import {Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
+import {Container, Badge, Link, List, ListItem, Text} from '@chakra-ui/react'
 import {ExternalLinkIcon} from '@chakra-ui/icons'
 import{ Title, Meta, WorkImage} from '../../components/work'
 import P from "../../components/paragraph"
@@ -10,17 +10,22 @@ const Work = () =>{
         <Layout title="interactionlab">
             <Container>
                 <Title>
-                    lab <Badge>2023</Badge>
+                    The Interaction Lab<Badge>2023</Badge>
                 </Title>
+                
+                
                 <ul>
                     <li>
-                        Designed web application functions utilizing Firebase and Vue.JS to manage and upkeep lab website.
+                        The Interaction Lab focuses on developing computational principles, techniques, and models to enable socially assistive human-robot interaction that supports human health and wellness.
                     </li>
                     <li>
-                        Under Prof. Maja Mataric, researched and implemented multi-armed bandit strategies and user engagement tracking for re-engagement machine learning research using PyQt5, PyTorch and probability theory.
+                        Designed web application functions utilizing Firebase and Vue.JS to manage and upkeep <Link href="https://uscinteractionlab.web.app/" target="_blank">lab website</Link>.
                     </li>
                     <li>
-                        Conducted research on zero-shot visual recognition using OpenAI’s CLIP and APIs. 
+                        Under Prof. <Link href="https://maja-mataric.web.app/" target="_blank">Maja Mataric</Link>, researched and implemented multi-armed bandit strategies and user engagement tracking for re-engagement machine learning research using PyQt5, PyTorch and probability theory.
+                    </li>
+                    <li>
+                        Conducted research on zero-shot visual recognition using OpenAI’s CLIP and APIs for paper submitted to <Link href="https://humanrobotinteraction.org/2024/" target="_blank">HRI 2024</Link>. 
                     </li>
                 </ul>
                 <List ml={4} my={4}>
@@ -30,7 +35,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://uscinteractionlab.web.app/">
+                        <Link href="https://uscinteractionlab.web.app/" target="_blank">
                         uscinteractionlab <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
@@ -40,11 +45,11 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Repos</Meta>
-                        <Link href="https://github.com/interaction-lab/GPT4Vis">
+                        <Link href="https://github.com/interaction-lab/GPT4Vis" target="_blank">
                         GPT4Vis <ExternalLinkIcon mx="2px"/>
                         </Link>     
                 
-                        <Link href="https://github.com/interaction-lab/learning-how-to-reengage">
+                        <Link href="https://github.com/interaction-lab/learning-how-to-reengage" target="_blank">
                         Learning How to Re-engage <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
