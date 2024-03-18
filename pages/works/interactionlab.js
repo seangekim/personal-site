@@ -1,6 +1,6 @@
 import {Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
 import {ExternalLinkIcon} from '@chakra-ui/icons'
-import{ Title, ProjectImage, Meta, WorkImage} from '../../components/work'
+import{ Title, Meta, WorkImage} from '../../components/work'
 import P from "../../components/paragraph"
 import Layout
 from '../../components/layouts/article'
@@ -24,6 +24,10 @@ const Work = () =>{
                     </li>
                 </ul>
                 <List ml={4} my={4}>
+                    <ListItem>  
+                        <Meta>Role</Meta>
+                        <span>Webmaster and Undergraduate Researcher</span>
+                    </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://uscinteractionlab.web.app/">

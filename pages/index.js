@@ -43,7 +43,7 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Work
             </Heading>
-            <Paragraph>Hey! I'm Sean, a developer based in Los Angeles with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing, to solving real-life problems with code. When not on my laptop, you'll probably find me cooking, camping, or snowboarding. 
+            <Paragraph>Hey! I'm Sean, a developer based in Los Angeles with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing, to solving real-life problems with code.
             </Paragraph>
             <br></br>
             <Paragraph>
@@ -51,11 +51,11 @@ const Page = () => {
             </Paragraph>
             <br></br>
             <Paragraph>
-            When not studying, you might find me reading in my hammock, cooking, or snowboarding. 
+            When not working, you might find me reading in my hammock, cooking, or snowboarding. 
             </Paragraph>
 
             <Box align="center" my={4}>
-                <NextLink href="/projects">
+                <NextLink href="/works">
                     <Button rightIcon={<ChevronRightIcon />} 
                         bg={bgColor}
                         color={iconColor}
@@ -72,29 +72,26 @@ const Page = () => {
                 Bio
             </Heading>
             <BioSection>
-                <BioYear>May 2023 - Present</BioYear>
-                Incoming Software Engineering Intern at FloQast
+                <BioYear>FloQast</BioYear>
+                
             </BioSection>
             
             <BioSection>
-                <BioYear>Dec 2022 - Present</BioYear>
-                Webmaster and Undergrad Researcher at USC's Robotics Interaction Lab
+                <BioYear>The Interaction Lab</BioYear>
+                
             </BioSection>
 
             <BioSection>
-                <BioYear>Mar 2023 - Present</BioYear>
-                Software Developer at HackSC
+                <BioYear>HackSC</BioYear>
+                
             </BioSection>
 
             <BioSection>
-                <BioYear>May 2023 - August 2023</BioYear>
-                Software Engineering Intern at Novus Labs
+                <BioYear>Novus Labs</BioYear>
+                
             </BioSection>
             
-            <BioSection>
-                <BioYear>May 2003</BioYear>
-                Born in Portland, Oregon
-            </BioSection>
+            
             
         </Section>
 

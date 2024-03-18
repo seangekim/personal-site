@@ -21,6 +21,10 @@ const Work = () =>{
                 </ul>
                 
                 <List ml={4} my={4}>
+                    <ListItem>  
+                        <Meta>Role</Meta>
+                        <span>Developer / Designer</span>
+                    </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://github.com/seangekim/NBA_ML_Projections">

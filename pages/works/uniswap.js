@@ -20,6 +20,10 @@ const Work = () =>{
                 </ul>
                 
                 <List ml={4} my={4}>
+                    <ListItem>  
+                        <Meta>Role</Meta>
+                        <span>Developer / Designer</span>
+                    </ListItem>
                     <ListItem>
                         <Meta>Video</Meta>
                         <Link href="https://www.youtube.com/watch?v=rIulgB2h5wE">
