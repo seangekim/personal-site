@@ -28,9 +28,9 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
-export const ProjectGridItem = ({
+export const WorkGridItem = ({
   children,
-  category = 'projects',
+  category = 'works',
   id,
   title,
   thumbnail

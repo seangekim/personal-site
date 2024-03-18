@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="Hibiscus">
             <Container>
                 <Title>
-                    uniswap <Badge>2023</Badge>
+                    UniSwap <Badge>2023</Badge>
                 </Title>
             
                 <ul>
@@ -20,6 +20,10 @@ const Work = () =>{
                 </ul>
                 
                 <List ml={4} my={4}>
+                    <ListItem>  
+                        <Meta>Role</Meta>
+                        <span>Developer / Designer</span>
+                    </ListItem>
                     <ListItem>
                         <Meta>Video</Meta>
                         <Link href="https://www.youtube.com/watch?v=rIulgB2h5wE">
@@ -33,7 +37,7 @@ const Work = () =>{
                     <ListItem>
                         <Meta>Repo</Meta>
                         <Link href="https://github.com/seangekim/UniSwap_">
-                            uniswap <ExternalLinkIcon mx="2px"/>
+                            UniSwap <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
                     

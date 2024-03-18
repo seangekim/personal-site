@@ -5,10 +5,14 @@ import{
     Container,
     Divider,
     Button,
-    Text
+    Text,
+    useColorModeValue
 } from '@chakra-ui/react'
 
 const NotFound = () => {
+    const bgColor = useColorModeValue('#be864e', '#5a189a');
+    const iconColor = useColorModeValue('black', 'white');
+
     return(
         <Container>
             <></>
@@ -18,7 +22,8 @@ const NotFound = () => {
             
             <Box my={6} align="center">
                 <NextLink href="/">
-                    <Button colorScheme="teal">Go home!</Button>
+                    <Button bg={bgColor}
+                        color={iconColor}>Go home!</Button>
                 </NextLink>
             </Box>
         </Container>

@@ -1,11 +1,12 @@
-import {Link, List, ListItem, Button, Container , Box, Heading, Image, useColorModeValue} from "@chakra-ui/react"
+import {Flex, Text, Link, List, ListItem, Button, Container , Box, Heading, Image, useColorModeValue} from "@chakra-ui/react"
 import Section from'../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
-import { BioSection, BioYear } from '../components/bio'
+import { BioSection, BioTitle } from '../components/bio'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoSend } from 'react-icons/io5'
+
 
 const Page = () => {
 
@@ -43,7 +44,7 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Work
             </Heading>
-            <Paragraph>Hey! I'm Sean, a developer based in Los Angeles with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing, to solving real-life problems with code. When not on my laptop, you'll probably find me cooking, camping, or snowboarding. 
+            <Paragraph>Hey! I'm Sean, a developer based in Los Angeles with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing, to solving real-life problems with code.
             </Paragraph>
             <br></br>
             <Paragraph>
@@ -51,11 +52,11 @@ const Page = () => {
             </Paragraph>
             <br></br>
             <Paragraph>
-            When not studying, you might find me reading in my hammock, cooking, or snowboarding. 
+            When not working, you might find me reading in my hammock, cooking, or snowboarding. 
             </Paragraph>
 
             <Box align="center" my={4}>
-                <NextLink href="/projects">
+                <NextLink href="/works">
                     <Button rightIcon={<ChevronRightIcon />} 
                         bg={bgColor}
                         color={iconColor}
@@ -72,29 +73,76 @@ const Page = () => {
                 Bio
             </Heading>
             <BioSection>
-                <BioYear>May 2023 - Present</BioYear>
-                Incoming Software Engineering Intern at FloQast
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                    <Link href="/works/floqast">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            FloQast
+                        </Button>
+                    </Link>
+                </BioTitle>
+                    <Text>2024 - Present</Text>
+                </Flex>
             </BioSection>
             
             <BioSection>
-                <BioYear>Dec 2022 - Present</BioYear>
-                Webmaster and Undergrad Researcher at USC's Robotics Interaction Lab
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                    <Link href="/works/interactionlab">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            The Interaction Lab
+                        </Button>
+                    </Link>
+                </BioTitle>
+                    <Text>Dec. 2022 - Present</Text>
+                </Flex>
             </BioSection>
 
             <BioSection>
-                <BioYear>Mar 2023 - Present</BioYear>
-                Software Developer at HackSC
+                <Flex justifyContent="space-between" alignItems="center">
+                    <BioTitle>
+                        <Link href="/works/hibiscus">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            HackSC
+                        </Button>
+                        </Link>
+                    </BioTitle>
+                    <Text>Mar. 2023 - Present</Text>
+                </Flex>
+                
             </BioSection>
 
             <BioSection>
-                <BioYear>May 2023 - August 2023</BioYear>
-                Software Engineering Intern at Novus Labs
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                        <Link href="/works/novus">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: "#5a189a"}}
+                        >
+                            Novus Labs
+                        </Button>
+                        </Link>
+                    </BioTitle>
+                    <Text>May 2023 - Aug 2023</Text>
+                </Flex>
+                
             </BioSection>
             
-            <BioSection>
-                <BioYear>May 2003</BioYear>
-                Born in Portland, Oregon
-            </BioSection>
+            
             
         </Section>
 
@@ -147,10 +195,7 @@ const Page = () => {
                     </Link>
                 </ListItem>
           </List>
-          {/* <Section>
-            my spotify information
-            <script src='../components/spotify.js' type="module"></script>
-          </Section> */}
+       
 
         </Section>
         </Container>

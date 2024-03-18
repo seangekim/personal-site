@@ -1,6 +1,6 @@
 import {Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
 import {ExternalLinkIcon} from '@chakra-ui/icons'
-import{ Title, ProjectImage, Meta, WorkImage} from '../../components/work'
+import{ Title, Meta, WorkImage} from '../../components/work'
 import P from "../../components/paragraph"
 import Layout
 from '../../components/layouts/article'
@@ -10,19 +10,23 @@ const Work = () =>{
         <Layout title="songhub">
             <Container>
                 <Title>
-                    songhub <Badge>2023</Badge>
+                    SongHub<Badge>2023</Badge>
                 </Title>
                 
                 <ul>
-                    <li>Worked in a team of four to develop songhub, a web app that allows users to connect Spotify or Apple Music accounts and share playlists and recent listening history with friends across platforms.</li>
+                    <li>Worked in a team of four to develop SongHub, a web app that allows users to connect Spotify or Apple Music accounts and share playlists and recent listening history with friends across platforms.</li>
                     <li>Utilized and implemented backend for Spotify’s Web API and Apple Music’s API.</li>
                     <li>Created web page design using Figma and integrated using React Native</li>
                 </ul>
                 
                 <List ml={4} my={4}>
+                    <ListItem>  
+                        <Meta>Role</Meta>
+                        <span>Developer / Designer</span>
+                    </ListItem>
                     <ListItem>
                         <Meta>Video</Meta>
-                        <Link href="https://www.youtube.com/watch?v=5W-Uh2yhH2w&t=2s">
+                        <Link href="https://www.youtube.com/watch?v=5W-Uh2yhH2w&t=2s" target="_blank">
                             youtube <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
@@ -32,8 +36,8 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Repo</Meta>
-                        <Link href="https://github.com/SutejSingh/musicShare">
-                            songhub <ExternalLinkIcon mx="2px"/>
+                        <Link href="https://github.com/SutejSingh/musicShare" target="_blank">
+                            SongHub <ExternalLinkIcon mx="2px"/>
                         </Link>
                     </ListItem>
                     
