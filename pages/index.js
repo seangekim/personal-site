@@ -79,7 +79,7 @@ const Page = () => {
                         <Button 
                             variant="ghost"    
                             color={iconColor}
-                            _hover={{color: "#5a189a"}}
+                            _hover={{color: bgColor}}
                         >
                             FloQast
                         </Button>
@@ -96,7 +96,7 @@ const Page = () => {
                         <Button 
                             variant="ghost"    
                             color={iconColor}
-                            _hover={{color: "#5a189a"}}
+                            _hover={{color: bgColor}}
                         >
                             The Interaction Lab
                         </Button>
@@ -113,7 +113,7 @@ const Page = () => {
                         <Button 
                             variant="ghost"    
                             color={iconColor}
-                            _hover={{color: "#5a189a"}}
+                            _hover={{color: bgColor}}
                         >
                             HackSC
                         </Button>
@@ -131,7 +131,7 @@ const Page = () => {
                         <Button 
                             variant="ghost"    
                             color={iconColor}
-                            _hover={{color: "#5a189a"}}
+                            _hover={{color: bgColor}}
                         >
                             Novus Labs
                         </Button>
@@ -159,7 +159,7 @@ const Page = () => {
                       
                         color={iconColor}
                         leftIcon={<IoLogoGithub />}
-                        _hover={{ color: '#5a189a' }}
+                        _hover={{color: bgColor}}
                     >
                         github
                     </Button>
@@ -173,7 +173,7 @@ const Page = () => {
                         
                         color={iconColor}
                         leftIcon={<IoLogoLinkedin />}
-                        _hover={{ color: '#5a189a' }}
+                        _hover={{color: bgColor}}
                         
                     >
                         linkedin
@@ -188,7 +188,7 @@ const Page = () => {
                        
                         color={iconColor}
                         leftIcon={<IoSend />}
-                        _hover={{ color: '#5a189a' }}
+                        _hover={{color: bgColor}}
                     >
                         seangkim.dev@gmail.com
                     </Button>
