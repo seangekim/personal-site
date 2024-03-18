@@ -148,7 +148,7 @@ const Page = () => {
 
         <Section delay={.5}>
             <Heading as="h3" variant="section-title">
-                online presence
+                Online Presence
             </Heading>
             <List>
                 <ListItem>
