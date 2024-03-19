@@ -5,7 +5,7 @@ import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import { BioSection, BioTitle } from '../components/bio'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoSend } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoSend, IoLogoGoogle } from 'react-icons/io5'
 
 
 const Page = () => {
@@ -191,6 +191,21 @@ const Page = () => {
                         _hover={{color: bgColor}}
                     >
                         seangkim.dev@gmail.com
+                    </Button>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="https://docs.google.com/document/d/1oe-ccO3LNIOLFRJ5v0m-e0u_hUiqinHtLekKCDMXzNw/edit" target="_blank">
+                    <Button
+                        variant="ghost"
+                        // colorScheme="teal"
+                        
+                        color={iconColor}
+                        leftIcon={<IoLogoGoogle />}
+                        _hover={{color: bgColor}}
+                        
+                    >
+                        resume
                     </Button>
                     </Link>
                 </ListItem>
