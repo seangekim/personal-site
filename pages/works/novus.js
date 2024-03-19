@@ -23,7 +23,7 @@ const Work = () =>{
                 <List ml={4} my={4}>
                     <ListItem>  
                         <Meta>Role</Meta>
-                        <span>Software Engineering Intern</span>
+                        <span>Software Engineer Intern</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
