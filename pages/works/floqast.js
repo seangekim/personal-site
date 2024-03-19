@@ -14,13 +14,13 @@ const Work = () =>{
                 </Title>
                 
                 
-                <div>Incoming SWE at Floqast</div>
+                <div>Incoming Software Engineer Intern at Floqast</div>
                 
                 
                 <List ml={4} my={4}>
                     <ListItem>  
                         <Meta>Role</Meta>
-                        <span>Software Engineering Intern</span>
+                        <span>Software Engineer Intern</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>

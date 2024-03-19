@@ -117,7 +117,7 @@ const Navbar = props => {
 
                 <MenuItem 
                   as={Link} 
-                  href="https://docs.google.com/document/d/1oe-ccO3LNIOLFRJ5v0m-e0u_hUiqinHtLekKCDMXzNw/edit"
+                  href="https://docs.google.com/document/d/1oe-ccO3LNIOLFRJ5v0m-e0u_hUiqinHtLekKCDMXzNw/edit" target='_blank'
                   >
                   resume
                 </MenuItem>
