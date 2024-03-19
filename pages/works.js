@@ -23,7 +23,7 @@ const Works = () => {
                 <SimpleGrid columns={[1,1,2]} gap = {6}>
                     <Section delay = {1}>
                         <WorkGridItem id="floqast" title="FloQast" thumbnail={floqast}>
-                            Software Engineering Internship
+                            Software Engineer Internship
                         </WorkGridItem>
                     </Section>
                     <Section delay = {1}>
@@ -38,7 +38,7 @@ const Works = () => {
                     </Section>
                     <Section delay = {1}>
                         <WorkGridItem id="novus" title = "Novus Labs" thumbnail = {novus}>
-                            Software Engineering Internship
+                            Software Engineer Internship
                         </WorkGridItem>
                     </Section>
                     <Section delay = {1}>
