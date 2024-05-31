@@ -10,7 +10,7 @@ const Website = ({Component, pageProps, router}) => {
         
         <ChakraProvider theme={theme}>
             <Head>
-                <link rel="shortcut icon" href="/images/logo.png" type="image/png" />
+                <link rel="shortcut icon" href="/images/blob.png" type="image/png" />
                 <title>Sean Kim's Portfolio</title>
             </Head>
             

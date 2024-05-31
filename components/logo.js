@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -12,13 +11,29 @@ const LogoBox = styled.span`
   line-height: 20px;
   padding: 10px;
 
-  > svg {
+  > img {
     transition: 200ms ease;
+    height: auto;
+    width: 8%;
   }
 
-  &:hover > svg {
-    transform: rotate(20deg);
+
+  &:hover > img {
+    animation: bounce 0.5s infinite;
   }
+
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+
+
+
+
+  
 `
 
 const Logo = () => {
@@ -26,12 +41,13 @@ const Logo = () => {
     (<Link href="/" scroll={false}>
 
       <LogoBox>
-        <FootprintIcon />
+        <img src="/images/blob.png"></img>
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily='M PLUS Rounded 1c", sans-serif'
           fontWeight="bold"
           ml={3}
+      
         >
           Sean Kim
         </Text>

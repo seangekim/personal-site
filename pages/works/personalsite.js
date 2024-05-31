@@ -20,7 +20,7 @@ const Work = () =>{
                     <li>My website! An ongoing project with all my builds.</li>
                     <li>Built using NextJS, and Chakra UI.</li>
                     <li>Implemented framer motion for loading page animations.</li>
-                    <li>Animated dog using <Link href="https://threejs.org/" target="_blank" isExternal>ThreeJS</Link> (designed w/ Blender and <Link href="https://ephtracy.github.io/" target="_blank" isExternal>MagicaVoxel</Link>).</li>
+                    <li>Animated forest using <Link href="https://threejs.org/" target="_blank" isExternal>ThreeJS</Link> (designed w/ Blender and <Link href="https://ephtracy.github.io/" target="_blank" isExternal>MagicaVoxel</Link>).</li>
 
                 </ul>
                 
