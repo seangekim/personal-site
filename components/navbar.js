@@ -76,9 +76,12 @@ const Navbar = props => {
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
+          
         >
           <LinkItem href="/">home</LinkItem>
-          <LinkItem href="/works">works</LinkItem>
+          <div style={{marginRight: '10px'}}>
+            <LinkItem href="/works">works</LinkItem>
+          </div>
           {/* <LinkItem
             target="_blank"
             href="https://docs.google.com/document/d/1oe-ccO3LNIOLFRJ5v0m-e0u_hUiqinHtLekKCDMXzNw/edit?usp=sharing"
@@ -87,6 +90,7 @@ const Navbar = props => {
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
+            width:100%
           >
             
  
@@ -97,7 +101,7 @@ const Navbar = props => {
 
         
 
-        <Box flex={1} align="right">
+        <Box flex={1} display="flex" flexDirection="row" align="right">
           <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block'}}>
             <Menu isLazy id="navbar-menu">
@@ -106,6 +110,7 @@ const Navbar = props => {
                 icon={<HamburgerIcon />}
                 variant="outline"
                 aria-label="Options"
+                
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">

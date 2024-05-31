@@ -2,17 +2,17 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../libs/model'
-import { DogSpinner, DogContainer } from './voxel-dog-loader'
+import { ForestSpinner, ForestContainer } from './forest-loader'
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const VoxelDog = () => {
+const Forest = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = '/sean-dog.glb'
+  const urlForestGLB = '/forest.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -52,7 +52,7 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.005 + 9.6
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -71,7 +71,7 @@ const VoxelDog = () => {
       controls.autoRotate = true
       controls.target = target
 
-      loadGLTFModel(scene, urlDogGLB, {
+      loadGLTFModel(scene, urlForestGLB, {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
@@ -119,11 +119,10 @@ const VoxelDog = () => {
   }, [handleWindowResize])
 
   return (
-    <DogContainer ref={refContainer}>{loading && <DogSpinner />}</DogContainer>
+    <ForestContainer ref={refContainer}>{loading && <ForestSpinner />}</ForestContainer>
 
 
-    // <DogContainer ref={refContainer}>{loading}</DogContainer>
   )
 }
 
-export default VoxelDog
+export default Forest

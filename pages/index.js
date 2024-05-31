@@ -17,7 +17,7 @@ const Page = () => {
         <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center" marginTop={5} marginBottom={5}>
-                Hi! I&apos;m Sean, meet the dog
+                welcome to my site &#128511;
             </Box>
 
             <Box display={{md:'flex'}}>
@@ -85,7 +85,7 @@ const Page = () => {
                         </Button>
                     </Link>
                 </BioTitle>
-                    <Text>2024 - Present</Text>
+                    <Text>May 2024 - Present</Text>
                 </Flex>
             </BioSection>
             
