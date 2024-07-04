@@ -17,7 +17,7 @@ const Work = () =>{
                 <ul>
                     <li>Utilized Mongo, AWS, React, and Node to complete full-stack tickets for PBC and Test modules on <Link href="https://floqast.com/products/compliance-management/" target="_blank">Compliance Management</Link> platform to implement new features for user dashboard and backend optimization.</li>
                     <li>Conducted code reviews, unit tests, and documentation to ensure reliability and maintainability of codebase.</li>
-                    <li>Participated in daily standups, planning, and all other Scrum activities. </li>
+                    <li>Contributed and participated in Agile ceremonies, utilizing Confluence to document technical specifications and Jira for task and project management.</li>
                 </ul>
                 
                 
