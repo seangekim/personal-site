@@ -21,7 +21,7 @@ const Works = () => {
                     works
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap = {6}>
-                    <Section delay = {1}>
+                    <Section id="hello" delay = {1}>
                         <Center>
                             <WorkGridItem id="floqast" title="FloQast" thumbnail={floqast}>
                                 Software Engineer Internship
