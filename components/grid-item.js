@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay, Center } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
@@ -35,7 +35,7 @@ export const WorkGridItem = ({
   title,
   thumbnail
 }) => (
-  <Box w="80%" textAlign="center">
+  <Box w="50%" textAlign="center" id="urmom">
     <LinkBox
       as={NextLink}
       href={`/${category}/${id}`}
@@ -44,24 +44,21 @@ export const WorkGridItem = ({
     >
 
       {/* Layout  */}
-      <Image
-        src={thumbnail}
-        alt={title}
-        loading="lazy"
-        width={100}
-        height={100}
-        
-        // THIS LAYOUT IS WHY IT THROWS A WARNING
-        layout="responsive"
-        className="grid-item-thumbnail"
-        placeholder="blur"
-        style={{ borderRadius: '12px' }}
-      />
-
-
-
-
-
+      
+        <Image
+          src={thumbnail}
+          alt={title}
+          loading="lazy"
+          width={100}
+          height={100}
+          
+          // THIS LAYOUT IS WHY IT THROWS A WARNING
+          layout="responsive"
+          className="grid-item-thumbnail"
+          placeholder="blur"
+          style={{ borderRadius: '12px' }}
+        />
+      
       
       <LinkOverlay as="div" href={`/${category}/${id}`}>
         <Text mt={2} fontSize={20}>
@@ -70,6 +67,7 @@ export const WorkGridItem = ({
       </LinkOverlay>
       <Text fontSize={14}>{children}</Text>
     </LinkBox>
+
   </Box>
 )
 

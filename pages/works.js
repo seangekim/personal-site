@@ -1,4 +1,4 @@
-import { Container, Box, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
+import { Container, Box, Heading, SimpleGrid, Divider, Center} from '@chakra-ui/react'
 import Section from '../components/section'
 import{ WorkGridItem} from "../components/grid-item"
 import hibiscus from "../public/images/hacksc_thumb.png"
@@ -22,45 +22,61 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap = {6}>
                     <Section delay = {1}>
-                        <WorkGridItem id="floqast" title="FloQast" thumbnail={floqast}>
-                            Software Engineer Internship
-                        </WorkGridItem>
+                        <Center>
+                            <WorkGridItem id="floqast" title="FloQast" thumbnail={floqast}>
+                                Software Engineer Internship
+                            </WorkGridItem>
+                        </Center>
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="hibiscus" title="HackSC" thumbnail={hibiscus}>
-                            An all-in-one, plug-and-play hackathon platform
-                        </WorkGridItem>
+                        <Center>
+                            <WorkGridItem id="hibiscus" title="HackSC" thumbnail={hibiscus}>
+                                An all-in-one, plug-and-play hackathon platform
+                            </WorkGridItem>
+                        </Center>
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="interactionlab" title="The Interaction Lab" thumbnail={interactionlab}>
-                            Learning How to Re-Engage
-                        </WorkGridItem> 
+                        <Center>
+                            <WorkGridItem id="interactionlab" title="The Interaction Lab" thumbnail={interactionlab}>
+                                Learning How to Re-Engage
+                            </WorkGridItem> 
+                        </Center>
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="novus" title = "Novus Labs" thumbnail = {novus}>
-                            Software Engineer Internship
-                        </WorkGridItem>
+                        <Center>
+                            <WorkGridItem id="novus" title = "Novus Labs" thumbnail = {novus}>
+                                Software Engineer Internship
+                            </WorkGridItem>
+                        </Center>
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="personalsite" title="Personal Portfolio" thumbnail={personalsite}>
-                            my own personal website
-                        </WorkGridItem> 
+                        <Center>
+                            <WorkGridItem id="personalsite" title="Personal Portfolio" thumbnail={personalsite}>
+                                my own personal website
+                            </WorkGridItem> 
+                        </Center>
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="uniswap" title="UniSwap" thumbnail={uniswap}>
-                            a hyper-localized digital marketplace for college students to sell and trade used goods on campus
-                        </WorkGridItem> 
+                        <Center>
+                            <WorkGridItem id="uniswap" title="UniSwap" thumbnail={uniswap}>
+                                a hyper-localized digital marketplace for college students to sell and trade used goods on campus
+                            </WorkGridItem> 
+                        </Center>
                     </Section>
                     
                     <Section delay = {1}>
-                        <WorkGridItem id="nba" title="NBA" thumbnail={nba}>
-                            an NBA win rate projector.
-                        </WorkGridItem> 
+                        <Center>
+                            <WorkGridItem id="nba" title="NBA" thumbnail={nba}>
+                                an NBA win rate projector.
+                            </WorkGridItem> 
+                        </Center>
                     </Section>
                     <Section delay = {1}>
-                        <WorkGridItem id="songhub" title="SongHub" thumbnail={songhub}>
-                            send songs from spotify to apple music
-                        </WorkGridItem> 
+                        <Center>
+                            <WorkGridItem id="songhub" title="SongHub" thumbnail={songhub}>
+                                send songs from spotify to apple music
+                            </WorkGridItem> 
+                        </Center>
                     </Section>
 
 
