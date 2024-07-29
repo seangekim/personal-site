@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay, Center } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
@@ -35,7 +35,7 @@ export const WorkGridItem = ({
   title,
   thumbnail
 }) => (
-  <Box w="50%" textAlign="center" id="urmom">
+  <Box w="60%" textAlign="center">
     <LinkBox
       as={NextLink}
       href={`/${category}/${id}`}
@@ -79,6 +79,10 @@ export const GridItemStyle = () => (
       }
       .image-hover-wrapper:hover {
         transform: scale(5); // Increase the scale value to make the image grow more
+      }
+
+      &:hover > img {
+        animation: bounce 0.5s 2;
       }
     
     `}

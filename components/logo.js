@@ -19,7 +19,7 @@ const LogoBox = styled.span`
 
 
   &:hover > img {
-    animation: bounce 0.5s infinite;
+    animation: bounce 0.5s 2;
   }
 
   @keyframes bounce {

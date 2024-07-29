@@ -15,9 +15,9 @@ const Work = () =>{
                 
                 
                 <ul>
-                    <li>Utilized Mongo, AWS, React, and Node to complete full-stack tickets for PBC and Test modules on <Link href="https://floqast.com/products/compliance-management/" target="_blank">Compliance Management</Link> platform to implement new features for user dashboard and backend optimization.</li>
-                    <li>Conducted code reviews, unit tests, and documentation to ensure reliability and maintainability of codebase.</li>
-                    <li>Contributed and participated in Agile ceremonies, utilizing Confluence to document technical specifications and Jira for task and project management.</li>
+                    <li>Utilized Mongo, AWS, React Redux, and Node to complete full-stack tickets for modules on <Link href="https://floqast.com/products/compliance-management/" target="_blank">Compliance Management</Link>  platform,   implementing new features for user dashboard and backend optimization, using Git for VCS.</li>
+                    <li>Addressed customer-requested issues regarding status filtering by adding backend logic, frontend functionality, and Jest unit testing, impacting over $12 million in ARR across 53 customers.</li>
+                    <li>Designed and implemented new schemas along with CRUD endpoints with proper aggregation, sanitization, and query optimization. </li>
                 </ul>
                 
                 

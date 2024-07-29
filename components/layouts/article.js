@@ -16,9 +16,10 @@ const Layout = ({ children ,title}) => (
     initial = "hidden" 
     animate = "enter" 
     exit = "exit" 
+    
     variants = {variants} 
     transition = {{duration: 0.4, type: 'easeInOut'}} 
-    style = {{position: "relative"}}>
+    style = {{position: "relative", paddingTop: "15px"}}>
         <>
         {title && ( <Head>
             <title>{title} - Sean Kim</title>
