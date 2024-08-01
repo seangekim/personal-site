@@ -80,11 +80,6 @@ export const GridItemStyle = () => (
       .image-hover-wrapper:hover {
         transform: scale(5); // Increase the scale value to make the image grow more
       }
-
-      &:hover > img {
-        animation: bounce 0.5s 2;
-      }
-    
     `}
   />
 )
