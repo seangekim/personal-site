@@ -10,6 +10,8 @@ import songhub from "../public/images/songhub.png"
 import Layout from '../components/layouts/article'
 import novus from '../public/images/novus.jpeg'
 import floqast from '../public/images/floqast.jpeg'
+import ttd from '../public/images/ttd.jpg'
+
 
 const Works = () => {
     return (
@@ -21,7 +23,14 @@ const Works = () => {
                     works
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap = {6}>
-                    <Section id="hello" delay = {1}>
+                    <Section delay = {1}>
+                        <Center>
+                            <WorkGridItem id="ttd" title="The Trade Desk" thumbnail={ttd}>
+                                Software Engineer Internship
+                            </WorkGridItem> 
+                        </Center>
+                    </Section>
+                    <Section delay = {1}>
                         <Center>
                             <WorkGridItem id="floqast" title="FloQast" thumbnail={floqast}>
                                 Software Engineer Internship
