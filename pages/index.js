@@ -72,6 +72,24 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Bio
             </Heading>
+
+            <BioSection>
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                    <Link href="/works/ttd">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: bgColor}}
+                        >
+                            The Trade Desk
+                        </Button>
+                    </Link>
+                </BioTitle>
+                    <Text>Incoming 2025</Text>
+                </Flex>
+            </BioSection>
+
             <BioSection>
                 <Flex justifyContent="space-between" alignItems="center">
                 <BioTitle>
@@ -85,7 +103,7 @@ const Page = () => {
                         </Button>
                     </Link>
                 </BioTitle>
-                    <Text>May 2024 - Present</Text>
+                    <Text>May 2024 - Aug. 2024</Text>
                 </Flex>
             </BioSection>
             
@@ -137,7 +155,7 @@ const Page = () => {
                         </Button>
                         </Link>
                     </BioTitle>
-                    <Text>May 2023 - Aug 2023</Text>
+                    <Text>May 2023 - Aug. 2023</Text>
                 </Flex>
                 
             </BioSection>
