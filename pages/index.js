@@ -126,24 +126,6 @@ const Page = () => {
 
             <BioSection>
                 <Flex justifyContent="space-between" alignItems="center">
-                    <BioTitle>
-                        <Link href="/works/hibiscus">
-                        <Button 
-                            variant="ghost"    
-                            color={iconColor}
-                            _hover={{color: bgColor}}
-                        >
-                            HackSC
-                        </Button>
-                        </Link>
-                    </BioTitle>
-                    <Text>Mar. 2023 - Present</Text>
-                </Flex>
-                
-            </BioSection>
-
-            <BioSection>
-                <Flex justifyContent="space-between" alignItems="center">
                 <BioTitle>
                         <Link href="/works/novus">
                         <Button 
