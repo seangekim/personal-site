@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="interactionlab">
             <Container>
                 <Title>
-                    The Interaction Lab<Badge>2023</Badge>
+                    The Interaction Lab<Badge>2022-2024</Badge>
                 </Title>
                 
                 
