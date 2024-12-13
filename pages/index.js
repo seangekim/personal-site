@@ -44,15 +44,15 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Work
             </Heading>
-            <Paragraph>Hey! I'm Sean, a developer based in Los Angeles with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing, to solving real-life problems with code.
+            <Paragraph>Hello! I'm Sean, a developer based in Los Angeles with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing, to solving real-life problems with code.
             </Paragraph>
             <br></br>
             <Paragraph>
-            Currently, I'm pursuing my M.S. in Computer Science along with my B.S. in Computer Science and Business Administration w/ a minor in Philosophy at the University of Southern California.
+            I'm currently pursuing my M.S. in Computer Science alongside my B.S. in Computer Science and Business Administration at the University of Southern California.
             </Paragraph>
             <br></br>
             <Paragraph>
-            When not working, you might find me reading in my hammock, cooking, or snowboarding. 
+            When not hacking, designing, crafting or breaking things, you might find me reading in my hammock, cooking, or snowboarding. 
             </Paragraph>
 
             <Box align="center" my={4}>
@@ -61,8 +61,6 @@ const Page = () => {
                         bg={bgColor}
                         color={iconColor}
                         >
-
-
                         My portfolio
                         </Button>
                 </NextLink>
