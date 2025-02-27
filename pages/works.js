@@ -39,15 +39,8 @@ const Works = () => {
                     </Section>
                     <Section delay = {1}>
                         <Center>
-                            <WorkGridItem id="hibiscus" title="HackSC" thumbnail={hibiscus}>
-                                An all-in-one, plug-and-play hackathon platform
-                            </WorkGridItem>
-                        </Center>
-                    </Section>
-                    <Section delay = {1}>
-                        <Center>
                             <WorkGridItem id="interactionlab" title="The Interaction Lab" thumbnail={interactionlab}>
-                                Learning How to Re-Engage
+                                Webmaster & Researcher
                             </WorkGridItem> 
                         </Center>
                     </Section>
@@ -55,6 +48,20 @@ const Works = () => {
                         <Center>
                             <WorkGridItem id="novus" title = "Novus Labs" thumbnail = {novus}>
                                 Software Engineer Internship
+                            </WorkGridItem>
+                        </Center>
+                    </Section>
+                </SimpleGrid>
+
+
+                <Heading as="h3" fontSize={20} mb={4}>
+                    projects
+                </Heading>
+                <SimpleGrid columns={[1,1,2]} gap = {6}>
+                    <Section delay = {1}>
+                        <Center>
+                            <WorkGridItem id="hibiscus" title="HackSC" thumbnail={hibiscus}>
+                                An all-in-one, plug-and-play hackathon platform
                             </WorkGridItem>
                         </Center>
                     </Section>
@@ -90,6 +97,7 @@ const Works = () => {
 
 
                 </SimpleGrid>
+
             </Section>
         </Container>
         </Layout>
