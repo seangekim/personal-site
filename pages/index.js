@@ -1,4 +1,4 @@
-import {Flex, Text, Link, List, ListItem, Button, Container , Box, Heading, Image, useColorModeValue} from "@chakra-ui/react"
+import {Flex, Text, Link, List, ListItem, Button, Container, Box, Heading, Image, useColorModeValue} from "@chakra-ui/react"
 import Section from'../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from "@chakra-ui/icons"
@@ -20,14 +20,14 @@ const Page = () => {
                 welcome to my site &#128511;
             </Box>
 
-            <Box display={{md:'flex'}}>
+            <Flex alignItems="center" flexDirection={{base: "column", md: "row"}}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
                         Sean 진기 Kim
                     </Heading>
                     <p>Digital Craftsman (Developer / Designer)</p>
                 </Box>
-                <Box flexShrink={0} mt={{base: 4, md: 0}} ml = {{md: 6}} algin="center">
+                <Box flexShrink={0} ml={{md: 6}} align="center">
                     <Image 
                     borderColor="whiteAlpha.800" 
                     borderWidth={2} 
@@ -38,7 +38,7 @@ const Page = () => {
                     src="/images/prof_pic.png" 
                     alt="Profile img"/>
                 </Box>
-            </Box>
+            </Flex>
 
             <Section delay={.5}>
             <Heading as="h3" variant="section-title">
