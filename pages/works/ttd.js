@@ -12,10 +12,11 @@ const Work = () =>{
                 <Title>
                     The Trade Desk <Badge>2025</Badge>
                 </Title>
-                
+        
                 <ul>
-                    <li>Architecting and implementing a data lakehouse-based Parquet export system to replace deprecated infrastructure, migrating Parquet Exporter notebooks to production Spark jobs w/ monitoring using Prometheus and Grafana.</li>
-                    <li>Building scalable data pipelines using Apache Spark and Databricks to process Delta tables from S3, generating hourly parquet exports and orchestrating workflows through Airflow DAGs for reliable automation.</li>
+                    <li>Built enterprise-scale data processing system using Apache Spark on EMR clusters to manage 22M+ row Iceberg tables with 300K+ daily operations, implementing custom schema alignment and deduplication logic.</li>
+                    <li>Developed production Spark applications in Scala with comprehensive ScalaTest/Mockito test suites, IAM-secured MySQL integration, and Airflow orchestration, reducing data pipeline runtime from hours to 15-minute cycles.</li> 
+                    <li>Architected data lakehouse migration from deprecated infrastructure to Apache Iceberg format with Prometheus and Grafana monitoring, enabling hourly parquet exports, eliminating 4-hour delays for downstream systems.</li>
                 </ul>
 
 
@@ -39,7 +40,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Technologies</Meta>
-                        <span>Scala, Apache Spark, Airflow, Iceberg, Databricks, AWS S3</span>
+                        <span>Scala, Apache Spark, Airflow, Iceberg, Databricks, AWS S3, Prometheus, Grafana.</span>
                     </ListItem>
                     
                     
