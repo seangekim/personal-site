@@ -84,7 +84,7 @@ const Page = () => {
                         </Button>
                     </Link>
                 </BioTitle>
-                    <Text>May 2025 - Present</Text>
+                    <Text>May 2025 - August 2025</Text>
                 </Flex>
             </BioSection>
 
