@@ -5,14 +5,10 @@ import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import { BioSection, BioTitle } from '../components/bio'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoSend, IoLogoGoogle } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoSend, IoLogoGoogle } from 'react-icons/io5'
 
 
 const Page = () => {
-
-    const bgColor = useColorModeValue('#be864e', '#5a189a');
-    const iconColor = useColorModeValue('black', 'white');
-
     return(
         <Layout>
         <Container>
@@ -57,9 +53,8 @@ const Page = () => {
 
             <Box align="center" my={4}>
                 <NextLink href="/works">
-                    <Button rightIcon={<ChevronRightIcon />} 
-                        bg={bgColor}
-                        color={iconColor}
+                    <Button rightIcon={<ChevronRightIcon />}
+                        variant="glass"
                         >
                         My portfolio
                         </Button>
@@ -75,10 +70,8 @@ const Page = () => {
                 <Flex justifyContent="space-between" alignItems="center">
                 <BioTitle>
                     <Link href="/works/ttd">
-                        <Button 
-                            variant="ghost"    
-                            color={iconColor}
-                            _hover={{color: bgColor}}
+                        <Button
+                            variant="glass-subtle"
                         >
                             The Trade Desk
                         </Button>
@@ -92,10 +85,8 @@ const Page = () => {
                 <Flex justifyContent="space-between" alignItems="center">
                 <BioTitle>
                     <Link href="/works/floqast">
-                        <Button 
-                            variant="ghost"    
-                            color={iconColor}
-                            _hover={{color: bgColor}}
+                        <Button
+                            variant="glass-subtle"
                         >
                             FloQast
                         </Button>
@@ -104,15 +95,13 @@ const Page = () => {
                     <Text>May 2024 - Aug. 2024</Text>
                 </Flex>
             </BioSection>
-            
+
             <BioSection>
                 <Flex justifyContent="space-between" alignItems="center">
                 <BioTitle>
                     <Link href="/works/interactionlab">
-                        <Button 
-                            variant="ghost"    
-                            color={iconColor}
-                            _hover={{color: bgColor}}
+                        <Button
+                            variant="glass-subtle"
                         >
                             The Interaction Lab
                         </Button>
@@ -126,10 +115,8 @@ const Page = () => {
                 <Flex justifyContent="space-between" alignItems="center">
                 <BioTitle>
                         <Link href="/works/novus">
-                        <Button 
-                            variant="ghost"    
-                            color={iconColor}
-                            _hover={{color: bgColor}}
+                        <Button
+                            variant="glass-subtle"
                         >
                             Novus Labs
                         </Button>
@@ -137,7 +124,7 @@ const Page = () => {
                     </BioTitle>
                     <Text>May 2023 - Aug. 2023</Text>
                 </Flex>
-                
+
             </BioSection>
             
             
@@ -152,12 +139,8 @@ const Page = () => {
                 <ListItem>
                     <Link href="https://github.com/seangekim" target="_blank">
                     <Button
-                        variant="ghost"
-                        // colorScheme="teal"
-                      
-                        color={iconColor}
+                        variant="glass-subtle"
                         leftIcon={<IoLogoGithub />}
-                        _hover={{color: bgColor}}
                     >
                         github
                     </Button>
@@ -166,13 +149,8 @@ const Page = () => {
                 <ListItem>
                     <Link href="https://www.linkedin.com/in/seangekim/" target="_blank">
                     <Button
-                        variant="ghost"
-                        // colorScheme="teal"
-                        
-                        color={iconColor}
+                        variant="glass-subtle"
                         leftIcon={<IoLogoLinkedin />}
-                        _hover={{color: bgColor}}
-                        
                     >
                         linkedin
                     </Button>
@@ -181,12 +159,8 @@ const Page = () => {
                 <ListItem>
                     <Link href="mailto:seangkim.dev@gmail.com" target="_blank">
                     <Button
-                        variant="ghost"
-                        // colorScheme="teal"
-                       
-                        color={iconColor}
+                        variant="glass-subtle"
                         leftIcon={<IoSend />}
-                        _hover={{color: bgColor}}
                     >
                         seangkim.dev@gmail.com
                     </Button>
@@ -195,13 +169,8 @@ const Page = () => {
                 <ListItem>
                     <Link href="https://docs.google.com/document/d/1oe-ccO3LNIOLFRJ5v0m-e0u_hUiqinHtLekKCDMXzNw/edit" target="_blank">
                     <Button
-                        variant="ghost"
-                        // colorScheme="teal"
-                        
-                        color={iconColor}
+                        variant="glass-subtle"
                         leftIcon={<IoLogoGoogle />}
-                        _hover={{color: bgColor}}
-                        
                     >
                         resume
                     </Button>
