@@ -25,7 +25,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         Sean 진기 Kim
                     </Heading>
-                    <p>Digital Craftsman (Developer / Designer)</p>
+                    <p>Software Engineer</p>
                 </Box>
                 <Box flexShrink={0} ml={{md: 6}} align="center">
                     <Image 
@@ -44,11 +44,11 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Work
             </Heading>
-            <Paragraph>Hello! I'm Sean, a developer based in Los Angeles with a passion for building digital services/stuff. I have a knack for all things launching products, from planning and designing, to solving real-life problems with code.
+            <Paragraph>Hello I'm Sean, welcome to my site! I'm a current engineer on TTD's Performance Automation team, working on real-time bidding infrastructure.
             </Paragraph>
             <br></br>
             <Paragraph>
-            I'm currently pursuing my M.S. in Computer Science alongside my B.S. in Computer Science and Business Administration at the University of Southern California.
+            I've most recently completed my M.S. in Computer Science alongside my B.S. in Computer Science and Business Administration at the University of Southern California. My experience spans from data engineering and full-stack development to machine learning and HCI research.
             </Paragraph>
             <br></br>
             <Paragraph>
@@ -84,7 +84,6 @@ const Page = () => {
                         </Button>
                     </Link>
                 </BioTitle>
-                    <Text>May 2025 - August 2025</Text>
                 </Flex>
             </BioSection>
 
@@ -101,7 +100,6 @@ const Page = () => {
                         </Button>
                     </Link>
                 </BioTitle>
-                    <Text>May 2024 - Aug. 2024</Text>
                 </Flex>
             </BioSection>
             
@@ -118,7 +116,6 @@ const Page = () => {
                         </Button>
                     </Link>
                 </BioTitle>
-                    <Text>Aug. 2022 - Oct. 2024</Text>
                 </Flex>
             </BioSection>
 
@@ -135,7 +132,6 @@ const Page = () => {
                         </Button>
                         </Link>
                     </BioTitle>
-                    <Text>May 2023 - Aug. 2023</Text>
                 </Flex>
                 
             </BioSection>

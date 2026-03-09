@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="The Trade Desk">
             <Container>
                 <Title>
-                    The Trade Desk <Badge>2025</Badge>
+                    The Trade Desk
                 </Title>
         
                 <ul>
@@ -26,7 +26,7 @@ const Work = () =>{
                 <List ml={4} my={4}>
                     <ListItem>  
                         <Meta>Role</Meta>
-                        <span>Software Engineer Intern</span>
+                        <span>Software Engineer</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Team</Meta>

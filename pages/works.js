@@ -26,7 +26,7 @@ const Works = () => {
                     <Section delay = {1}>
                         <Center>
                             <WorkGridItem id="ttd" title="The Trade Desk" thumbnail={ttd}>
-                                Software Engineer Internship
+                                Software Engineer
                             </WorkGridItem> 
                         </Center>
                     </Section>
