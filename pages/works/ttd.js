@@ -14,6 +14,8 @@ const Work = () =>{
                 </Title>
         
                 <ul>
+                    <li>Worked across real-time bidding system: offline pipelines to process and model auction signals at scale, and low-latency distributed infrastructure executing bid price predictions.</li>
+                    
                     <li>Built enterprise-scale data processing system using Apache Spark on EMR clusters to manage 22M+ row Iceberg tables with 300K+ daily operations, implementing custom schema alignment and deduplication logic.</li>
                     <li>Developed production Spark applications in Scala with comprehensive ScalaTest/Mockito test suites, IAM-secured MySQL integration, and Airflow orchestration, reducing data pipeline runtime from hours to 15-minute cycles.</li> 
                     <li>Architected data lakehouse migration from deprecated infrastructure to Apache Iceberg format with Prometheus and Grafana monitoring, enabling hourly parquet exports, eliminating 4-hour delays for downstream systems.</li>
@@ -30,7 +32,7 @@ const Work = () =>{
                     </ListItem>
                     <ListItem>
                         <Meta>Team</Meta>
-                        <span>Performance Automation: Real Time Bidding</span>
+                        <span>Performance Automation</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Website</Meta>
