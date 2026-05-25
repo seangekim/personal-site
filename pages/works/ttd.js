@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="The Trade Desk">
             <Container>
                 <Title>
-                    The Trade Desk
+                    The Trade Desk <Badge>2025-2026</Badge>
                 </Title>
         
                 <ul>
@@ -49,7 +49,6 @@ const Work = () =>{
                     
                     
                 </List>
-                {/* <WorkImage src="/images/floqast_logo.jpeg" alt="FloQast" /> */}
                 
             </Container>
         </Layout>

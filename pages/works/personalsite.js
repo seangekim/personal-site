@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="personalsite">
             <Container>
                 <Title>
-                    Personal Website<Badge>2024</Badge>
+                    Personal Website <Badge>2024</Badge>
                 </Title>
 
 

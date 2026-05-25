@@ -11,6 +11,7 @@ import Layout from '../components/layouts/article'
 import novus from '../public/images/novus.jpeg'
 import floqast from '../public/images/floqast.jpeg'
 import ttd from '../public/images/ttd.jpg'
+import vanta from '../public/images/vanta.jpeg'
 
 
 const Works = () => {
@@ -23,6 +24,13 @@ const Works = () => {
                     works
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap = {6}>
+                    <Section delay = {1}>
+                        <Center>
+                            <WorkGridItem id="vanta" title="Vanta" thumbnail={vanta}>
+                                Software Engineer
+                            </WorkGridItem> 
+                        </Center>
+                    </Section>
                     <Section delay = {1}>
                         <Center>
                             <WorkGridItem id="ttd" title="The Trade Desk" thumbnail={ttd}>

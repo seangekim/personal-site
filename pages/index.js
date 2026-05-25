@@ -44,15 +44,15 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Work
             </Heading>
-            <Paragraph>Hello I'm Sean, welcome to my site! I'm a current engineer on TTD's Performance Automation team, working on real-time bidding infrastructure.
+            <Paragraph>Hello I'm Sean! I'm a current engineer at Vanta based in NYC, working on their Scope & Segmentation team. 
             </Paragraph>
             <br></br>
             <Paragraph>
-            I've most recently completed my M.S. in Computer Science alongside my B.S. in Computer Science and Business Administration at the University of Southern California. My experience spans from data engineering and full-stack development to machine learning and HCI research.
+            I hold an M.S. in Computer Science alongside a B.S. in Computer Science and Business Administration from the University of Southern California. My experience spans from data engineering and full-stack development to machine learning and HCI research.
             </Paragraph>
             <br></br>
             <Paragraph>
-            When not hacking, designing, crafting or breaking things, you might find me reading in my hammock, cooking, or snowboarding. 
+            When not designing, developing or breaking something(s), you might find me reading in my hammock, working on my tennis game, or snowboarding. 
             </Paragraph>
 
             <Box align="center" my={4}>
@@ -70,6 +70,22 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Bio
             </Heading>
+
+            <BioSection>
+                <Flex justifyContent="space-between" alignItems="center">
+                <BioTitle>
+                    <Link href="/works/vanta">
+                        <Button 
+                            variant="ghost"    
+                            color={iconColor}
+                            _hover={{color: bgColor}}
+                        >
+                            Vanta
+                        </Button>
+                    </Link>
+                </BioTitle>
+                </Flex>
+            </BioSection>
 
             <BioSection>
                 <Flex justifyContent="space-between" alignItems="center">

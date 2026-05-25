@@ -10,7 +10,7 @@ const Work = () =>{
         <Layout title="nba win rate projector">
             <Container>
                 <Title>
-                    NBA Win Rate Projector<Badge>2023</Badge>
+                    NBA Win Rate Projector <Badge>2023</Badge>
                 </Title>
                 
                 
